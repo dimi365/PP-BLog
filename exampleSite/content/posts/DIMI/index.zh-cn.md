@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 7
 title: "主题文档 - mermaid Shortcode"
 date: 2020-03-03T15:29:59+08:00
 lastmod: 2020-03-03T15:29:59+08:00
