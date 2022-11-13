@@ -15,7 +15,7 @@ resources:
 tags: ["shortcodes"]
 categories: ["documentation"]
 
-hiddenFromHomePage: true
+hiddenFromHomePage: false
 ---
 
 {{< version 0.2.11 changed >}}
