@@ -1,5 +1,5 @@
 ---
-weight: 15
+weight: 7
 title: "The Dimi Verse"
 date: 2020-03-03T15:29:41+08:00
 lastmod: 2020-03-03T15:29:41+08:00
