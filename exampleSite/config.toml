@@ -5,7 +5,7 @@ baseURL = "https://example.com"
 theme = "LoveIt"
 # themes directory
 # 主题目录
-themesDir = "../.."
+
 
 # website title
 # 网站标题
@@ -26,7 +26,7 @@ hasCJKLanguage = false
 
 # default amount of posts in each pages
 # 默认每页列表显示的文章数目
-paginate = 12
+paginate = 5
 # google analytics code [UA-XXXXXXXX-X]
 # 谷歌分析代号 [UA-XXXXXXXX-X]
 googleAnalytics = ""
@@ -34,29 +34,10 @@ googleAnalytics = ""
 # 版权描述，仅仅用于 SEO
 copyright = ""
 
-# whether to use robots.txt
-# 是否使用 robots.txt
-enableRobotsTXT = true
-# whether to use git commit log
-# 是否使用 git 信息
-enableGitInfo = true
-# whether to use emoji code
-# 是否使用 emoji 代码
-enableEmoji = true
 
-# ignore some build errors
-# 忽略一些构建错误
-ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
-
-# Author config
-# 作者配置
-[author]
-  name = "xxxx"
-  email = ""
-  link = ""
 
 # Menu config
-# 菜单配置
+
 [menu]
   [[menu.main]]
     weight = 1
@@ -115,58 +96,27 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   images = ["/logo.png"]
 
   # Header config
-  # 页面头部导航栏配置
   [params.header]
     # desktop header mode ["fixed", "normal", "auto"]
-    # 桌面端导航栏模式 ["fixed", "normal", "auto"]
     desktopMode = "fixed"
     # mobile header mode ["fixed", "normal", "auto"]
-    # 移动端导航栏模式 ["fixed", "normal", "auto"]
     mobileMode = "auto"
     # Header title config
-    # 页面头部导航栏标题配置
     [params.header.title]
       # URL of the LOGO
-      # LOGO 的 URL
-      logo = ""
+      
       # title name
-      # 标题名称
-      name = "LoveIt"
+    
+      name = "    Dimi365"
+    
       # you can add extra information before the name (HTML format is supported), such as icons
-      # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
+      pre = "<i class='fa-brands fa-microsoft' aria-hidden='true'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
       typeit = false
-
-  # Footer config
-  # 页面底部信息配置
-  [params.footer]
-    enable = true
-    # Custom content (HTML format is supported)
-    # 自定义内容 (支持 HTML 格式)
-    custom = ""
-    # whether to show Hugo and theme info
-    # 是否显示 Hugo 和主题信息
-    hugo = true
-    # whether to show copyright info
-    # 是否显示版权信息
-    copyright = true
-    # whether to show the author
-    # 是否显示作者
-    author = true
-    # site creation time
-    # 网站创立年份
-    since = 2019
-    # ICP info only in China (HTML format is supported)
-    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = ""
-    # license info (HTML format is supported)
-    # 许可协议信息 (支持 HTML 格式)
-    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
@@ -181,7 +131,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # RSS 文章数目
     rss = 10
 
-  # List (category or tag) page config
+
+     # List (category or tag) page config
   # List (目录或标签) 页面配置
   [params.list]
     # special amount of posts in each list page
@@ -267,7 +218,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       title = ""
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "A Power App, Elegant but Advanced Hugo Theme"
+      subtitle = "A Clean, Elegant but Advanced Hugo Theme"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -362,7 +313,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Email = ""
     RSS = ""
 
-  # Page global config
+
+      # Page global config
   # 文章页面全局配置
   [params.page]
     # whether to hide a page from home page
@@ -610,7 +562,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "xxxx"
         logoUrl = "/images/avatar.png"
 
-  # TypeIt config
+
+     # TypeIt config
   # TypeIt 配置
   [params.typeit]
     # typing speed between each step (measured in milliseconds)
@@ -835,14 +788,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "About"
         url = "/about/"
         title = ""
-      [[languages.en.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
+      
     [languages.en.params]
       [languages.en.params.search]
         enable = true
@@ -850,7 +796,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         contentLength = 4000
         placeholder = ""
         maxResultLength = 10
-        snippetLength = 30
+        snippetLength = 40
         highlightTag = "em"
         absoluteURL = false
         [languages.en.params.search.algolia]
@@ -858,117 +804,23 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           appID = "PASDMWALPK"
           searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       [languages.en.params.home]
-        rss = 10
+        rss = 20
         [languages.en.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
+          avatarURL = "images/dimi.jfif"
           title = ""
-          subtitle = "A Power App, Elegant but Advanced Hugo Theme"
+          subtitle = "More power, less code"
+      
+          
+          
           typeit = true
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        GitHub = "xxxx"
+        
         Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
         Youtubelegacy = "xxxx"
-        Phone = "555-555-555"
         Email = "xxxx@xxxx.com"
-        RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+        
 
-  [languages.zh-cn]
-    weight = 2
-    languageCode = "zh-CN"
-    languageName = "简体中文"
-    hasCJKLanguage = true
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.zh-cn.menu]
-      [[languages.zh-cn.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "所有文章"
-        url = "/posts/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "标签"
-        url = "/tags/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "分类"
-        url = "/categories/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        name = "文档"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "关于"
-        url = "/about/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
-    [languages.zh-cn.params]
-      [languages.zh-cn.params.search]
-        enable = true
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 50
-        highlightTag = "em"
-        absoluteURL = false
-        [languages.zh-cn.params.search.algolia]
-          index = "index.zh-cn"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      [languages.zh-cn.params.home]
-        rss = 10
-        [languages.zh-cn.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
-          typeit = true
-          social = true
-          disclaimer = ""
-      [languages.zh-cn.params.social]
-        GitHub = "xxxx"
-        Weibo = "xxxx"
-        Steam = "xxxx"
-        Zhihu = "xxxx"
-        Douban = "xxxx"
-        Devto = "xxxx"
-        Bilibili = "xxxx"
-        Email = "xxxx@xxxx.com"
-        Phone = "555-555-555"
-        RSS = true
