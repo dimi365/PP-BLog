@@ -25,7 +25,7 @@ math:
 
 ![Hugo Theme LoveIt](/images/Apple-Devices-Preview.png "Hugo Theme LoveIt")
 
-## Features
+## Features or what?
 
 ### Performance and SEO
 
