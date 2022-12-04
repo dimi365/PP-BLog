@@ -27,7 +27,7 @@ math:
 
 <!--more-->
 
-## 1 style
+## 1 style OR
 
 {{< version 0.2.0 changed >}}
 
